@@ -44,7 +44,7 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/250px-Reinforcement_learning_diagram.svg.png)
 #### What is Deep Learning ?
         Deep learning is defined as algorithms inspired by the structure and function of the brain called artificial neural networks(ANN).Deep learning 
-        most probably focuses on Non Linear Analysis and is recommend for Non Linear problems regarding Artificial Intelligence.
+        most probably focuses on Non Linear Analysis and is recommended for Non Linear problems regarding Artificial Intelligence.
 
 #### Difference between Machine Learning and Deep Learning?	
         Since DL is a subset of ML and both being subset of AI.While basic machine learning models do become progressively better at whatever their 
@@ -54,7 +54,7 @@ Feel Free to Share the Questions/References Link into your blog.
 #### Difference between SemiSupervised and Reinforcment Learning?
 
 #### Difference between Bias and Variance?
-        Bias is definned as over simpliciation assumption assumed by the model, 
+        Bias is definned as over simplification assumption assumed by the model, 
         Variance is definned as ability of a model to learn from Noise as well, making it highly variant.
         There is always a tradeoff between these both, hence its recommended to find a balance between these two and always use cross validation to 
         determine the best fit.
@@ -95,7 +95,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What is Logit Function? or Sigmoid function/ where in ML and DL you can use it?
         The sigmoid might be useful if you want to transform a real valued variable into something that represents a probability. While the Logit function
-        is to map probaliticvalues from -Inf to +inf to either real numbers representing True or False towards 1 or 0 (real number). This is commonly used
+        is to map probabilistic values from -Inf to +Inf to either real numbers representing True or False towards 1 or 0 (real number). This is commonly used
         in Classification having base in  Logistic Regression along with Sigmoid based functions in Deep learning used to find a nominal outcome in a
         layer or output of a layer.
 
@@ -107,15 +107,15 @@ Feel Free to Share the Questions/References Link into your blog.
 
 
 #### What is Support Vector Machine ? how is it different from  OVR classifiers?
-        Support Vector Machine is defineed as a Technique which is classification and regression model. Which uses hyper plan estimation and best hyper plane
-        fitting the estimate on linear lines drawn same a linear one. Although it can also work for non Linear using kernal tricks on SVM.
-        SVM is totally based on Marginal lines (with difference between two classes in the best way possible).
-        One Vs rest is the base classifier concept which is used in all the Ml algorithms which involves classification based on Class A vs Classes REst approach. Since here are only two heuristic approaches which are enhancment of Multiclass classificaton to make the binary classifier perform
+        Support Vector Machine is defineed as a technique which is classification and regression model, which uses hyper-plane estimation and the best hyper-plane
+        fitting the estimate on linear lines drawn same a linear one. Although it can also work for nonlinear using kernel tricks on SVM.
+        SVM is totally based on marginal lines (with difference between two classes in the best way possible).
+        One VS Rest is the base classifier concept which is used in all the ML algorithms which involves classification based on Class A vs Classes Rest approach. Since here are only two heuristic approaches which are enhancment of Multiclass classificaton to make the binary classifier perform
         well on multi class problems and solve the problem in hand.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/SVM_margin.png/300px-SVM_margin.png)
 
 
-        The algorithms which uses OVO are:
+        The algorithms which uses OVR are:
             1) Extreme learning Machines(ELM's)
             2) Support Vector Machine(Classifiers)
             3) K Nearest Neighbours.(for neighbouring classes based on distances)
