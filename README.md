@@ -201,7 +201,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 ![OneVariableSGD](https://cdn-images-1.medium.com/fit/t/1600/480/1*7LbtloKtsBZW1P0DmR4UDA.png)
 
-#### What is Randomforest and Decision Trees?
+#### What is Random Forest and Decision Trees?
         A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event
         outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
@@ -210,14 +210,14 @@ Feel Free to Share the Questions/References Link into your blog.
         prediction (regression) of the individual trees. Used to remove the Overfitting occured due to single Decision Trees.
 
 ![](https://miro.medium.com/max/1200/1*5dq_1hnqkboZTcKFfwbO9A.png)
-#### What is Process of Splitting?
+#### What is process of splitting?
         Splitting up your data in to subsets based on provided data facts. (can come in handy for decision Trees)
 
 #### What is the process prunning?
         The Shortening of branches of Decision Trees is termed as Prunning. The process is done in case to reach the decision quite earlier than
         expected. Reducing the size of the tree by turning some branch nodes into leaf nodes, and removing the leaf nodes under the original branch.
 
-#### How do you do Tree Selection?
+#### How do you do tree selection?
         Tree selection is mainly done from the following
         1) Entropy 
                 A decision tree is built top-down from a root node and involves partitioning the data into subsets that contain instances with similar 
@@ -322,12 +322,12 @@ Feel Free to Share the Questions/References Link into your blog.
         Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s. By analogy, Higher the AUC, better the model is at distinguishing between patients with disease and no disease.
     
 ![](https://miro.medium.com/max/722/1*pk05QGzoWhCgRiiFbz-oKQ.png)
-#### How would you define False positive or Type I error and False Negative or Type II Error ?
+#### How would you define False Positive or Type I error and False Negative or Type II Error ?
         False positive : A false positive is an outcome where the model incorrectly predicts the positive class.(was A but got predicted B) aka Type I error.
 
         False Negative : A false negative is an outcome where the model incorrectly predicts the negative class. (was not A but predicted A) aka Type II error.
 
-#### How would you define precision() and Recall(True positive Rate)?
+#### How would you define precision and recall (True positive Rate)?
         Take a simple Classification example of "Classifying email messages as spam or not spam"
 
         Precision measures the percentage of emails flagged as spam that were correctly classified—that is, the percentage of dots to the right of the threshold line, it is also defined as % of event being Called at positive rates e.g 
@@ -350,19 +350,19 @@ Feel Free to Share the Questions/References Link into your blog.
 
         David (Scientist Statistician): The widespread use of the F1 score since it gives equal importance to precision and recall. In practice, different types of mis-classifications incur different costs. In other words, the relative importance of precision and recall is an aspect of the problem
 
-#### What is difference between Preceptron and SVM?
+#### What is difference between perceptron and SVM?
         The major practical difference between a (kernel) perceptron and SVM is that perceptrons can be trained online (i.e. their weights can be updated
         as new examples arrive one at a time) whereas SVMs cannot be. Perceptron is no more than hinge loss (loss function) + stochastic gradient descent (optimization).
         
         SVM has almost the same goal as L2-regularized perceptron.
         SVM can be seen as hinge loss + l2 regularization (loss + regularization) + quadratic programming or other fancier optimization algorithms like SMO (optimization).
 
-#### What is the difference between Logsitic and Liner Regressions?
+#### What is the difference between Logistic and Liner Regressions?
         LogR is Classifier, LR is Regression.
         LogR values are between 0 and 1 and probabilty in between as well.
         LR values are in realnumbers from 1 to postive N (where N is known)
 ![](https://miro.medium.com/proxy/0*gKOV65tvGfY8SMem.png)
-#### What are outliers and How would you remove them?
+#### What are outliers and how would you remove them?
         An outlier is an observation that lies an abnormal distance from other values in a random sample from a population.
 ![](https://www2.southeastern.edu/Academics/Faculty/dgurney/Outlier.jpg)
 
@@ -371,44 +371,44 @@ Feel Free to Share the Questions/References Link into your blog.
             2) Use Z-score Scale removal (so that any point much away from mean gets removed)
             3) Combination of Z Score and IQR (custom scores)
 
-#### What is Regulization?
+#### What is Regularization?
         Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting.
         Add Lambda * Biasness value at the end.
-#### Difference between L1 and L2 Regulization?
-        1) L1 Regulization (Lasso Regression)
+#### Difference between L1 and L2 Regularization?
+        1) L1 Regularization (Lasso Regression)
             (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient as penalty term to the loss function.
 
-        2) L2 Regulization (Ridge Regression)
+        2) L2 Regularization (Ridge Regression)
             (adds “squared magnitude” of coefficient as penalty term to the loss function. Here the highlighted part represents L2 regularization element.)
 
         The key difference between these techniques is that Lasso shrinks the less important feature’s coefficient to zero thus, removing some feature
         altogether. So, this works well for feature selection in case we have a huge number of features.
 
-#### What are different Technique of Sampling your data?
-        Data Sampling statistical analysis technique used to select, manipulate and analyze a representative subset of data points to identify patterns and trends in the larger data set being examined.
+#### What are different techniques of sampling your data?
+        Data sampling statistical analysis technique used to select, manipulate and analyze a representative subset of data points to identify patterns and trends in the larger data set being examined.
         There are different techniques of sampling your data
         1) Simple Random Sampling (records are picked at random)
         2) Stratified Sampling (subsets based on common factor with equal ratio distribution)
         3) Cluster Sampling (largest set is breaken down in form of clusters based on defined factors and SRS is applied)
         4) MultiStage Sampling (cluster on Cluster sampling)
-        5) Symentaic Sampling (Sample created by setting interval)
+        5) Systematic Sampling (Sample created by setting interval)
         
 #### Can you define the concept of Undersampling and Oversampling?
-        Undersampling is the concept of downsizing the class based sample from a Bigger range to smaller range i.e 1Million records to 0.1 Million records,
+        Undersampling is the concept of downsizing the class based sample from a bigger range to smaller range i.e 1 million records to 0.1 million records,
         keeping the ratio of information intact
 
         Oversampling represents the concept of using a smaller class sample i.e 100K to scale upto million keeping the trend and the property to make up
         datasets.
 
-#### What is Imbalanced Class?
+#### What is imbalanced Class?
         Imbalancment is when you don't have balance in between classes.
         Imabalnced class is when the normal distribution/support count of multiple classes or classes being considered are not the same or almost same.
         E.G:
-            Class A has 1 Million Record
+            Class A has 1 million Record
             Class B has 1000 Record
-        This is imbalanced data set and Class B is UnderBalanced Class.
+        This is imbalanced data set and Class B is underbalanced class.
 
-#### How would you resolve the issue of Imbalancment data set?
+#### How would you resolve the issue of imbalancment data set?
         The techniques such as 
             1) OverSampling
             2) UnderSampling
