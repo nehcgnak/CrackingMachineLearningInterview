@@ -242,11 +242,11 @@ Feel Free to Share the Questions/References Link into your blog.
             currentLabel = featureVector[-1]
             if currentLabel not in labelCounts.keys():
             labelCounts[currentLabel] = 0
-            labelCounts[currentLabel] +=1
+            labelCounts[currentLabel] += 1
         entropy = 0
         for i in labelCounts:
             probability = float(labelCounts[keys])/number
-            entropy -=probability*log(probability,2)
+            entropy -=probability * log(probability, 2)
         return entropy
         '''
 #### How does Random Forest works and Decision Trees?
@@ -288,7 +288,7 @@ Feel Free to Share the Questions/References Link into your blog.
         3 failed ( show the back). The likelihood is calculated (for binomial distribution, it can be vary depend on the distributions).
 
 
-        Likelihood(Event(success)) - > L(0.5|7)= 10C7 * 0.5^7 * (1-0.5)^3 = 0.1171 
+        Likelihood(Event(success)) - > L(0.5|7) = 10C7 * 0.5^7 * (1-0.5)^3 = 0.1171 
 
         L(0.5 | 7): means event likelihood of back (given number of successes)
         10C7 -> Combination based on total 10 Events, and having the success outcome be 7 events
