@@ -1,8 +1,8 @@
 ## CrackingMachineLearningInterview
 
-These questions are guranteed to be asked in Machine Learning Engineer or ML based interviews for upto 80% of your job interviews.
-Make sure that you cover and know about machine learning. These questions can Ace your interviews regarding ML even 
-if you are a fresh graduate or upto 5 years of experience.
+These questions are guranteed to be asked in Machine Learning Engineer or ML based interviews for up to 80% of your job interviews.
+Make sure that you cover and know about machine learning. These questions can ace your interviews regarding ML even 
+if you are a fresh graduate or up to 5 years of experience.
 ##### Ultimate Machine Learning Engineer Interview Questions.
 Helpful for:
 * Machine Learning Engineer
@@ -29,7 +29,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 # Questions
 
-#### Difference between SuperVised and Unsupervised Learning?
+#### Difference between Supervised and Unsupervised Learning?
         Supervised learning is when you know the outcome and you are provided with the fully labeled outcome data while in unsupervised you are not 
         provided with labeled outcome data. Fully labeled means that each example in the training dataset is tagged with the answer the algorithm should 
         come up with on its own. So, a labeled dataset of flower images would tell the model which photos were of roses, daisies and daffodils. When shown 
@@ -44,14 +44,14 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/250px-Reinforcement_learning_diagram.svg.png)
 #### What is Deep Learning ?
         Deep learning is defined as algorithms inspired by the structure and function of the brain called artificial neural networks(ANN).Deep learning 
-        most probably focuses on Non Linear Analysis and is recommended for Non Linear problems regarding Artificial Intelligence.
+        most probably focuses on nonlinear analysis and is recommended for Non Linear problems regarding artificial intelligence.
 
 #### Difference between Machine Learning and Deep Learning?	
         Since DL is a subset of ML and both being subset of AI.While basic machine learning models do become progressively better at whatever their 
         function is, they still need some guidance. If an AI algorithm returns an inaccurate prediction, then an engineer has to step in and make 
         adjustments. With a deep learning model, an algorithm can determine on its own if a prediction is accurate or not through its own neural network.
 ![](https://lawtomated.com/wp-content/uploads/2019/04/MLvsDL.png)
-#### Difference between SemiSupervised and Reinforcment Learning?
+#### Difference between Semisupervised and Reinforcement Learning?
 
 #### Difference between Bias and Variance?
         Bias is definned as over simplification assumption assumed by the model, 
@@ -59,9 +59,9 @@ Feel Free to Share the Questions/References Link into your blog.
         There is always a tradeoff between these both, hence its recommended to find a balance between these two and always use cross validation to 
         determine the best fit.
 
-#### What is Linear Regressions ? How does it work?
+#### What is Linear Regression ? How does it work?
         Fitting a Line in the respectable dataset when drawn to a plane, in a way that it actually defines the correlation between your dependent
-        variables and your independent variable. Using a simple Line/Slope Formulae. Famously, representing f(X) = M(x) + b.
+        variables and your independent variable. Using a simple line/slope formulae. Famously, representing f(X) = M(x) + b.
         Where b represents bias
         X represent the input variable (independent ones)
         f(X) represents Y which is dependent(outcome).
@@ -75,7 +75,7 @@ Feel Free to Share the Questions/References Link into your blog.
         X(i) : denotes input at the I'th record in form of vector
         B(i) : denotes vector B which is bias vector.
 
-#### UseCases of Regressions:
+#### Use Cases of Regressions:
         Poisson regression for count data.
         Logistic regression and probit regression for binary data.
         Multinomial logistic regression and multinomial probit regression for categorical data.
@@ -93,20 +93,20 @@ Feel Free to Share the Questions/References Link into your blog.
         The prediction is based on probabilties of specified classes 
         Works the same way as linear regression but uses logit function to scale down the values between 0 and 1 and get the probabilities.
 
-#### What is Logit Function? or Sigmoid function/ where in ML and DL you can use it?
+#### What is Logit Function? Or Sigmoid function / where in ML and DL you can use it?
         The sigmoid might be useful if you want to transform a real valued variable into something that represents a probability. While the Logit function
         is to map probabilistic values from -Inf to +Inf to either real numbers representing True or False towards 1 or 0 (real number). This is commonly used
-        in Classification having base in  Logistic Regression along with Sigmoid based functions in Deep learning used to find a nominal outcome in a
+        in classification having base in Logistic Regression along with Sigmoid based functions in Deep learning used to find a nominal outcome in a
         layer or output of a layer.
 
-#### What is Gradient Decent Formula to Linear Regression Equation?
+#### What is Gradient Descent formula to Linear Regression Equation?
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/gradiant_descent.jpg)
 
 
 
 
-#### What is Support Vector Machine ? how is it different from  OVR classifiers?
+#### What is Support Vector Machine? How is it different from OVR classifiers?
         Support Vector Machine is defineed as a technique which is classification and regression model, which uses hyper-plane estimation and the best hyper-plane
         fitting the estimate on linear lines drawn same a linear one. Although it can also work for nonlinear using kernel tricks on SVM.
         SVM is totally based on marginal lines (with difference between two classes in the best way possible).
@@ -117,8 +117,8 @@ Feel Free to Share the Questions/References Link into your blog.
 
         The algorithms which uses OVR are:
             1) Extreme learning Machines(ELM's)
-            2) Support Vector Machine(Classifiers)
-            3) K Nearest Neighbours.(for neighbouring classes based on distances)
+            2) Support Vector Machine (classifiers)
+            3) K Nearest Neighbours (for neighbouring classes based on distances)
             4) Naive Bayes (based on MAP : Maximum Posterior )
             5) Decision Trees(decision in subnodes after parent node has one feature)
             6) Neural Networks (different nets)
@@ -127,36 +127,36 @@ Feel Free to Share the Questions/References Link into your blog.
         Think of kernels as definned filters each for their own specific usecases.
 
         1) Polynomial Kernels (used for image processing)
-        2) Gaussian Kernel (When there is no prior knowledge for data)
+        2) Gaussian Kernel (when there is no prior knowledge for data)
         3) Gaussian Radial Basis Function(same as 2)
-        4) Laplace RBF Kernel ( recommend for higher training set more than million)
+        4) Laplace RBF Kernel (recommend for higher training set more than million)
         5) Hyperbolic Tangent Kernel (neural network based kernel)
-        6) Sigmoid Kernel(proxy for Neural network)
-        7) Anova Radial Basis Kernel (for Regression Problems)
+        6) Sigmoid Kernel(proxy for neural network)
+        7) Anova Radial Basis Kernel (for regression problems)
 
-#### What is different type of Evauation metrics in Regression?
-        There are multiple evaluation metrics for Regression Analysis
-        1) Mean Squared Error ( the average squared difference between the estimated values and the actual value)
-        2) Mean Absolute Error (Absolute of the Average difference)
+#### What are different types of evaluation metrics in regression?
+        There are multiple evaluation metrics for regression analysis
+        1) Mean Squared Error (the average squared difference between the estimated values and the actual value)
+        2) Mean Absolute Error (absolute of the average difference)
 ![](https://econbrowser.com/wp-content/uploads/2019/07/msemae.png)
 #### How would you define Mean absolute error vs Mean squared error?
-        MAE : Use MAE when you are doing regression and don’t want outliers to play a big role. It can also be useful if you know that your distribution is multimodal, and it’s desirable to have predictions at one of the modes, rather than at the mean of them.
-        MSE : use MSE the other way around, when you want to punish the outliers.
+        MAE: use MAE when you are doing regression and don’t want outliers to play a big role. It can also be useful if you know that your distribution is multimodal, and it’s desirable to have predictions at one of the modes, rather than at the mean of them.
+        MSE: use MSE the other way around, when you want to punish the outliers.
 
 #### How would you evaluate your classifier?
-        A classifier can be evaluated through multiple case, having the base case around its confusion metrics and its attributes which are TP, TN , FP and FN. Along with the Accuracy metrics which can be derived alongside Precision, Recall scores.
+        A classifier can be evaluated through multiple case, having the base case around its confusion metrics and its attributes which are TP, TN , FP and FN. Along with the accuracy metrics which can be derived alongside precision, recall scores.
 
-#### What is Classification?
-        Classification is defined as categorizing classes or entities based on the specified categories either that category exists or not in the respectable data. The concept is quite common for Image based classification or Data Based Classification. The answer in form of Yes or No;
+#### What is classification?
+        Classification is defined as categorizing classes or entities based on the specified categories either that category exists or not in the respectable data. The concept is quite common for image based classification or data based classification. The answer in form of Yes or No;
         alongside answers in form of types of objects/classes.
 
 #### How would you differentiate between Multilabel and MultiClass classification?
-        A multiclass defines as a classification outcome which can be of multiple classes either A or B or C but not   two or more than one.
-        While in MultiLabel classification, An outcome can be of either one or more than two classes i.e A or A and B or A and B and C. 
+        A multiclass defines as a classification outcome which can be of multiple classes either A or B or C but not two or more than one.
+        While in multiLabel classification, An outcome can be of either one or more than two classes i.e. A or A and B or A and B and C. 
 ![](https://4.bp.blogspot.com/-sCcOrQsTH9Q/XG1yv7mhERI/AAAAAAAAAJI/aEj6Jf1lookERHqPQS_Y6Q9bxBcTV7TIwCLcBGAs/s1600/multiclass-multilabel.png)
 
 
-#### What is Confusion Matrics?
+#### What is Confusion Matrix?
         A confusion matrix, also known as an error matrix, is a specific table layout that allows visualization of
          the performance of an algorithm, typically a supervised learning one (in unsupervised learning it is
           usually called a matching matrix). Each row of the matrix represents the instances in a predicted class
@@ -165,22 +165,22 @@ Feel Free to Share the Questions/References Link into your blog.
         (i.e. commonly mislabeling one as another).
 ![](https://www.unite.ai/wp-content/uploads/2019/12/Preventive_Medicine-e1576294312614.png)
 
-#### Which Algorithms are High Biased Algorithms?
+#### Which algorithms are high niased algorithms?
         Bias is the simplifying assumptions made by the model to make the target function easier to approximate.
         1) High bias algorithms are most probably Linear Algorithm, which are concerned with linear relationships or linear distancing. Examples are 
         2) Linear, Logistic or Linear Discrimenant Analysis.
 
-#### Which Algorithms are High and low Variance Algorithms?	
+#### Which algorithms are high and low variance algorithms?	
         Variance is the amount that the estimate of the target function will change given different training data
 
-        1) High Variance Algorithms are Decision Trees, K Nearest Neigbours and SVMs
-        2) Low Variance Algorithms are Linear Regression, Logistic Regression and LDA's
+        1) High variance algorithms are Decision Trees, K Nearest Neigbours and SVMs
+        2) Low variance algorithms are Linear Regression, Logistic Regression and LDA's
 
-#### Why are the above algorithms are High biased or high variance?
+#### Why are the above algorithms are high biased or high variance?
         Linear machine learning algorithms often have a high bias but a low variance.
         Nonlinear machine learning algorithms often have a low bias but a high variance.
 
-#### What are root case of Prediction Bias?
+#### What are root case of prediction bias?
         Possible root causes of prediction bias are:
 
         1) Incomplete feature set
@@ -191,8 +191,8 @@ Feel Free to Share the Questions/References Link into your blog.
 
 
 
-#### What is Gradient Decent? Difference between SGD and GD? 
-        Gradient Descent is an iterative method to solve the optimization problem. There is no concept of "epoch" or "batch" in classical gradient decent. The key of gradient decent are
+#### What is Gradient Descent? Difference between SGD and GD? 
+        Gradient descent is an iterative method to solve the optimization problem. There is no concept of "epoch" or "batch" in classical gradient decent. The key of gradient decent are
         * Update the weights by the gradient direction.
         * The gradient is calculated precisely from all the data points.
         Stochastic Gradient Descent can be explained as: 
@@ -201,7 +201,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 ![OneVariableSGD](https://cdn-images-1.medium.com/fit/t/1600/480/1*7LbtloKtsBZW1P0DmR4UDA.png)
 
-#### What is Random Forest and Decision Trees?
+#### What are Random Forest and Decision Trees?
         A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event
         outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.
 
@@ -211,10 +211,10 @@ Feel Free to Share the Questions/References Link into your blog.
 
 ![](https://miro.medium.com/max/1200/1*5dq_1hnqkboZTcKFfwbO9A.png)
 #### What is process of splitting?
-        Splitting up your data in to subsets based on provided data facts. (can come in handy for decision Trees)
+        Splitting up your data in to subsets based on provided data facts (can come in handy for decision trees).
 
 #### What is the process prunning?
-        The Shortening of branches of Decision Trees is termed as Prunning. The process is done in case to reach the decision quite earlier than
+        The shortening of branches of decision trees is termed as Prunning. The process is done in case to reach the decision quite earlier than
         expected. Reducing the size of the tree by turning some branch nodes into leaf nodes, and removing the leaf nodes under the original branch.
 
 #### How do you do tree selection?
@@ -249,21 +249,21 @@ Feel Free to Share the Questions/References Link into your blog.
             entropy -=probability*log(probability,2)
         return entropy
         '''
-#### How does RandomForest Works and Decision Trees?
-        -* Decision Tree *- A Simple Tree compromising of the process defined in selection of Trees.
-        -* RandomForest *- Combination of Multiple N number of Decision Trees and using the aggregation to determine the final outcome.
-        The classifier outcome is based on Voting of each tree within random forest while in case of regression it is based on the 
+#### How does Random Forest works and Decision Trees?
+        -* Decision Tree *- A simple tree compromising of the process defined in selection of trees.
+        -* Random Forest *- Combination of multiple N number of decision trees and using the aggregation to determine the final outcome.
+        The classifier outcome is based on voting of each tree within random forest while in case of regression it is based on the 
         averaging of the tree outcome.
 
 #### What is Gini Index? Explain the concept?
         The Gini Index is calculated by subtracting the sum of the squared probabilities of each class from one. It favors larger partitions.
-        Imagine, you want to draw a decision tree and wants to decide which feature/column you should use for your first split?, this is probably defined
+        Imagine, you want to draw a decision tree and wants to decide which feature/column you should use for your first split? This is probably defined
         by your gini index.
 
 #### What is the process of gini index calculation?
         Gini Index:
         for each branch in split:
-            Calculate percent branch represents .Used for weighting
+            Calculate percent branch represents. Used for weighting
             for each class in branch:
                 Calculate probability of class in the given branch.
                 Square the class probability.
@@ -278,38 +278,38 @@ Feel Free to Share the Questions/References Link into your blog.
         Perfectly classified, Gini Index would be zero.
         Evenly distributed would be 1 – (1/# Classes).
         You want a variable split that has a low Gini Index.
-        The algorithm works as 1 – ( P(class1)^2 + P(class2)^2 + … + P(classN)^2)
+        The algorithm works as 1 – (P(class1)^2 + P(class2)^2 + … + P(classN)^2)
 
-#### What is probability? How would you define Likelihood?
-        Probability defines the percentage of Succes occured. or Success of an event. Can be described Chance of having an event is 70% or etc.
+#### What is probability? How would you define likelihood?
+        Probability defines the percentage of succes occured or Success of an event. Can be described Chance of having an event is 70% or etc.
         We suppose that the event that we get the face of coin in success, so the probability of success now is 0.5 because the probability of face and back of a coin is equal. 0.5 is the probability of a success.
 
-        Likelihood is the conditional probability. The same example, we toss the coin 10 times ,and we suppose that we get 7 success ( show the face) and
+        Likelihood is the conditional probability. The same example, we toss the coin 10 times ,and we suppose that we get 7 success (show the face) and
         3 failed ( show the back). The likelihood is calculated (for binomial distribution, it can be vary depend on the distributions).
 
 
         Likelihood(Event(success)) - > L(0.5|7)= 10C7 * 0.5^7 * (1-0.5)^3 = 0.1171 
 
-        L(0.5 | 7) : means event likelihood of back( given number of successes)
+        L(0.5 | 7): means event likelihood of back (given number of successes)
         10C7 -> Combination based on total 10 Events, and having the success outcome be 7 events
         In general:
             Event(X | Y)  -> C(Total Event| Success Event) * [(Prob of X) ^ (Success Event X)] * [(1 - Prob of X) ^ (1 - Success Event X)]
 
-#### What is Entropy? and Information Gain ? there difference ?
-        Entropy: Randomness of information being processed.
+#### What is Entropy? And Information Gain? There difference ?
+        Entropy: randomness of information being processed.
 
-        Information Gain multiplies the probability of the class times the log (base=2) of that class probability.  Information Gain favors smaller partitions with many distinct values.  Ultimately, you have to experiment with your data and the splitting criterion.
-        IG depends on Entropy Change (decrease represent increase in IG)
+        Information Gain multiplies the probability of the class times the log (base=2) of that class probability. Information Gain favors smaller partitions with many distinct values. Ultimately, you have to experiment with your data and the splitting criterion.
+        IG depends on entropy change (decrease represent increase in IG)
 
 
 #### What is KL divergence, how would you define its usecase in ML?
         Kullback-Leibler divergence calculates a score that measures the divergence of one probability distribution from another
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4958785faae58310ca5ab69de1310e3aafd12b32)
 
-#### How would you define Cross Entropy, What is the main purpose of it ? 
-        Entropy: Randomness of information being processed.
+#### How would you define Cross Entropy? What is the main purpose of it? 
+        Entropy: randomness of information being processed.
 
-        Cross Entropy: A measure from the field of information theory, building upon entropy and generally calculating the difference between two
+        Cross Entropy: a measure from the field of information theory, building upon entropy and generally calculating the difference between two
         probability distributions. It is closely related to but is different from KL divergence that calculates the relative entropy between two
         probability distributions, whereas cross-entropy can be thought to calculate the total entropy between the distributions.
 
@@ -323,28 +323,28 @@ Feel Free to Share the Questions/References Link into your blog.
     
 ![](https://miro.medium.com/max/722/1*pk05QGzoWhCgRiiFbz-oKQ.png)
 #### How would you define False Positive or Type I error and False Negative or Type II Error ?
-        False positive : A false positive is an outcome where the model incorrectly predicts the positive class.(was A but got predicted B) aka Type I error.
+        False positive : A false positive is an outcome where the model incorrectly predicts the positive class (was A but got predicted B) aka Type I error.
 
-        False Negative : A false negative is an outcome where the model incorrectly predicts the negative class. (was not A but predicted A) aka Type II error.
+        False Negative : A false negative is an outcome where the model incorrectly predicts the negative class (was not A but predicted A) aka Type II error.
 
 #### How would you define precision and recall (True positive Rate)?
-        Take a simple Classification example of "Classifying email messages as spam or not spam"
+        Take a simple classification example of "Classifying email messages as spam or not spam"
 
-        Precision measures the percentage of emails flagged as spam that were correctly classified—that is, the percentage of dots to the right of the threshold line, it is also defined as % of event being Called at positive rates e.g 
+        Precision measures the percentage of emails flagged as spam that were correctly classified — that is, the percentage of dots to the right of the threshold line, it is also defined as % of event being Called at positive rates e.g 
                 Precision = True Positive / (True Positive + False positive) 
         
         Recall measures the percentage of actual spam emails that were correctly classified
                 Recall = True Postives / (True Positive + False Negative)
         
-        There is always a tradeoff between precision and Recall same is the case of Bias and Variance.
+        There is always a tradeoff between precision and recall the same is the case of bias and variance.
 
 
 #### Which one would you prefer for you classification model Precision or Recall?
-        This totally depends on Business Usecase or SME usecase. In case of Fraud Detection Business domains such as banks, online ecommerce websites
-        recommends of better recall score than precision. While in other cases such as word suggestions or Multi label Categorization it can be precision.
+        This totally depends on business use case or SME usecase. In case of fraud detection business domains such as banks, online ecommerce websites
+        recommends of better recall score than precision. While in other cases such as word suggestions or multi-label categorization it can be precision.
         In general, totally dependent on your use case.
 
-#### What is F1 Score? which intution does it gives ?
+#### What is F1 Score? Which intution does it give?
         The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall).
         Also known as Dice Similarity Coefficent. 
 
@@ -358,7 +358,7 @@ Feel Free to Share the Questions/References Link into your blog.
         SVM can be seen as hinge loss + l2 regularization (loss + regularization) + quadratic programming or other fancier optimization algorithms like SMO (optimization).
 
 #### What is the difference between Logistic and Liner Regressions?
-        LogR is Classifier, LR is Regression.
+        LogR is classifier, LR is regression.
         LogR values are between 0 and 1 and probabilty in between as well.
         LR values are in realnumbers from 1 to postive N (where N is known)
 ![](https://miro.medium.com/proxy/0*gKOV65tvGfY8SMem.png)
@@ -374,7 +374,7 @@ Feel Free to Share the Questions/References Link into your blog.
 #### What is Regularization?
         Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting.
         Add Lambda * Biasness value at the end.
-#### Difference between L1 and L2 Regularization?
+#### Difference between L1 and L2 Regularizations?
         1) L1 Regularization (Lasso Regression)
             (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient as penalty term to the loss function.
 
@@ -408,38 +408,38 @@ Feel Free to Share the Questions/References Link into your blog.
             Class B has 1000 Record
         This is imbalanced data set and Class B is underbalanced class.
 
-#### How would you resolve the issue of imbalancment data set?
+#### How would you resolve the issue of imbalanced data set?
         The techniques such as 
-            1) OverSampling
-            2) UnderSampling
+            1) Oversampling
+            2) Undersampling
             3) Smote combination of both
             4) bringing in more dataset
             5) doing more trend analysis
-        can resolve the issue of Imbalancment dataset
+        can resolve the issue of imbalanced dataset
 
 #### How would you define Weighted Moving Averages ?
         A incremental increase of Moving Average having a Weighted Multiple to keep the values which gets repeated during a certain time with High 
         priority/ Impact.
 
 #### What is meant by ARIMA Models?
-        A Regressive and Moving Average Model combination is termed as ARIMA. To be exact, Auto Regressive Intergerated Moving Avearges.
+        A regressive and Moving Average Model combination is termed as ARIMA. To be exact, Auto Regressive Intergerated Moving Avearges.
         A techniques which does regression analysis along with moving averages which fits time series analysis and gets trend analysis with 
         acceptable scores.
 
 #### How would you define Bagging and Boosting? How would XGBoost differ from RandomForest?
-        Bagging : A way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. 
-                Example : Random Forest  (uses random Sampling subsets)
+        Bagging: a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. 
+                Example: Random Forest (uses random Sampling subsets)
         Boosting: An iterative technique which adjusts the weight of an observation based on the last classification
-                Example: AdaBoost, XGboost  (using gradient descent as main method)
+                Example: AdaBoost, XGboost (using gradient descent as main method)
 
-#### What is IQR, how can these help in Outliers removal?
+#### What is IQR? How can these help in outlier removal?
         IQR is interquantile range which specifies the range between your third quantile and the first one.
-        Quantile are 4 points of your data represented by percentage(should be four equal parts )
-            Q1: 0-25%
-            Q2: 25-50%
-            Q3: 50-75%
-            Q4: 75- 100%
-        IQR :- Q3 - Q1
+        Quantile are 4 points of your data represented by percentage (should be four equal parts)
+            Q1: 0 - 25%
+            Q2: 25 - 50%
+            Q3: 50 - 75%
+            Q4: 75 - 100%
+        IQR: - Q3 - Q1
 #### What is SMOTE?	
         Synthetic Minority Over-sampling TEchnique also known as SMOTE. 
         A very popular oversampling method that was proposed to improve random oversampling but 
@@ -464,39 +464,39 @@ Feel Free to Share the Questions/References Link into your blog.
         4) Ensembling 
         5) Bring in More data
         6) Remove Features
-#### What is a Neuron?
+#### What is a neuron?
         A "neuron" in an artificial neural network is a mathematical approximation of a biological neuron.
         It takes a vector of inputs, performs a transformation on them, and outputs a single scalar value.
          It can be thought of as a filter. Typically we use nonlinear filters in neural networks.
 
-#### What are Hidden Layers and Input layer?
+#### What are hidden layers and Input layer?
 ![](https://www.i2tutorials.com/wp-content/uploads/2019/05/Hidden-layrs-1-i2tutorials.jpg)
 
         1) Input Layer: Initial input for your neural network
-        2) Hiddent layers: a hidden layer is located between the input and output of the algorithm, 
+        2) Hidden layers: a hidden layer is located between the input and output of the algorithm, 
         in which the function applies weights to the inputs and directs them through an activation function as the output.
         In short, the hidden layers perform nonlinear transformations of the inputs entered into the network. 
         Hidden layers vary depending on the function of the neural network, and similarly, the layers may vary depending 
         on their associated weights.
 
-#### What are Output Layers?
+#### What are output Layers?
         Output layer in ANN determines the final layer which is responsible for the final outcome, the outcome totally depends
         on the usecase provided and the function which is being used to scale the values. By default, Linear, Sigmoid and Relu are 
         most common choices.
-        Linear for Regression.
-        Sigmoid/Softmax for Classification.
+        Linear for regression.
+        Sigmoid/Softmax for classification.
 
 #### What are activation functions ?
         Activation functions perform a transformation on the input received, in order to keep values within a manageable range depending
-        on the limitation of the activation function. Its more of a mathematical scale filter applied to a complete layer (Vector)
+        on the limitation of the activation function. Its more of a mathematical scale filter applied to a complete layer (vector)
         to scale out values.
         Some common examples for AF are:
-            1) Sigmoid or SoftMax Function (has Vanish Gradient problem)
+            1) Sigmoid or SoftMax Function (has vanish gradient problem)
                 Softmax outputs produce a vector that is non-negative and sums to 1. It's useful when you have mutually exclusive categories 
                 ("these images only contain cats or dogs, not both"). You can use softmax if you have 2,3,4,5,... mutually exclusive labels.
 
             2) Tanh function (has Vanish Garident problem)
-                if the outputs are somehow constrained to lie in [−1,1], tanh could make sense.
+                if the outputs are somehow constrained to lie in [−1, 1], tanh could make sense.
             3) Relu Function
                 ReLU units or similar variants can be helpful when the output is bounded above or below. 
                 If the output is only restricted to be non-negative, it would make sense to use a ReLU 
@@ -505,14 +505,14 @@ Feel Free to Share the Questions/References Link into your blog.
             4) Leaky Relu Function (to fix the dying relu problem in the Relu function within hidden layers)
 
 #### What is Convolotional Neural Network?
-        convolutional-neural-network is a subclass of neural-networks which have at least one convolution layer. 
+        Convolutional-neural-network is a subclass of neural-networks which have at least one convolution layer. 
         They are great for capturing local information (e.g. neighbor pixels in an image or surrounding words in a text) 
         as well as reducing the complexity of the model (faster training, needs fewer samples, reduces the chance of overfitting).
-        . A convolution unit receives its input from multiple units from the previous layer which together create a proximity.
+        A convolution unit receives its input from multiple units from the previous layer which together create a proximity.
         Therefore, the input units (that form a small neighborhood) share their weights.
 ![](https://miro.medium.com/max/3288/1*uAeANQIOQPqWZnnuH-VEyw.jpeg)
 
-#### What is recurrent Neural Network?	
+#### What is Recurrent Neural Network?	
         A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence.
         This allows it to exhibit temporal dynamic behavior. Derived from feedforward neural networks, RNNs can use their 
         internal state (memory) to process variable length sequences of inputs. This makes them applicable to tasks such 
@@ -527,11 +527,11 @@ Feel Free to Share the Questions/References Link into your blog.
         traffic or IDS.
 ![](https://miro.medium.com/max/1400/1*qn_quuUSYzozyH3CheoQsA.png)
 
-#### What is Convolotional Layer?	
+#### What is Convolutional Layer?	
         A convolution is the simple application of a filter to an input that results in an activation. Repeated application of the 
         same filter to an input results in a map of activations called a feature map, indicating the locations and strength of a 
         detected feature in an input, such as an image.
-        You can use Filters which are based on Horizental Lines or Verticial Lines or Gray Scale conversion or other conversion filters.
+        You can use Filters which are based on horizental lines or vertical lines or gray scale conversion or other conversion filters.
 ![](https://qph.fs.quoracdn.net/main-qimg-29982be98b548e9a3256b68c6ecbcb60.webp)
 
 #### What is Pooling Layer?
@@ -539,14 +539,14 @@ Feel Free to Share the Questions/References Link into your blog.
         Two common pooling methods are average pooling and max pooling that summarize the average presence of a feature and the most activated 
         presence of a feature respectively.      
 
-        This is required to downsize your feature scale (e.g You have detected vertical lines, now remove some of the feature to go in grain)
+        This is required to downsize your feature scale (e.g You have detected vertical lines, now remove some of the feature to go in grain).
 ![](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_4/Pooling_Simple_max.png)
 
 #### What is MaxPooling Layer? How does it work?
-        Max polling uses the Maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
+        Max polling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
 ![](https://computersciencewiki.org/images/8/8a/MaxpoolSample2.png)
 #### What is Kernel or Filter?
-        kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM)
+        Kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM)
         Kernel functions have been introduced for sequence data, graphs, text, images, as well as vectors.
         A Kernel is used to solve Non- Linear problem by Linear Classifiers in a way that its useable.
 ![](https://2.bp.blogspot.com/-iNPVcxMHMNg/WdDnyLPY9QI/AAAAAAAAAZU/hgwQOQ1liyE4nhKVYzOyuUprjHNEx7aygCLcBGAs/s1600/kernel.png)
@@ -554,14 +554,14 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What is Segmentation?
         The process of partitioning a digital source into multiple segments.
-        If you refer Image, Imagine Image source being converted into multiple segments such as Airplane object.
+        If you refer image, imagine image source being converted into multiple segments such as airplane object.
         The goal of segmentation is to simplify and/or change the representation of an image into something that
-         is more meaningful and easier to analyze.
+        is more meaningful and easier to analyze.
 
 #### What is Pose Estimation?	
         Detection of poster from an Image is represented as Post Estimation.
 
-#### What is Forward propagation?	
+#### What is forward propagation?	
         The input data is fed in the forward direction through the network. Each hidden layer accepts the input data,
         processes it as per the activation function and passes to the successive layer.
 ![](https://miro.medium.com/max/3652/1*FczAiD6e8zWjWupOQkP_-Q.png)
@@ -572,7 +572,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Proper tuning of the weights ensures lower error rates, making the model reliable by increasing its generalization
 ![](https://i.ytimg.com/vi/An5z8lR8asY/maxresdefault.jpg)
 
-#### what are dropout neurons?	
+#### What are dropout neurons?	
         The term “dropout” refers to dropping out units (both hidden and visible) in a neural network.
         Simply put, dropout refers to ignoring units (i.e. neurons) during the training phase of certain 
         set of neurons which is chosen at random. By “ignoring”, I mean these units are not considered during
@@ -581,7 +581,7 @@ Feel Free to Share the Questions/References Link into your blog.
         probability 1-p or kept with probability p, so that a reduced network is left; incoming and 
         outgoing edges to a dropped-out node are also removed.
 
-#### what are flattening layers?	
+#### What are flattening layers?	
         A flatten layer collapses the spatial dimensions of the input into the channel dimension. 
         For example, if the input to the layer is an H-by-W-by-C-by-N-by-S array (sequences of images),
         then the flattened output is an (H*W*C)-by-N-by-S array.
@@ -591,7 +591,7 @@ Feel Free to Share the Questions/References Link into your blog.
         obtained in the previous epoch (i.e. iteration). Proper tuning of the weights ensures lower error rates, 
         making the model reliable by increasing its generalization
 
-#### What is correlation? and covariance?
+#### What is correlation? And covariance?
         “Covariance” indicates the direction of the linear relationship between variables. 
         “Correlation” on the other hand measures both the strength and direction of the linear relationship between two variables.
 
@@ -600,7 +600,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Both covariance and correlation measure linear relationships between variables.
 ![](https://miro.medium.com/max/716/1*T52-LSuLQyq-6I2c1lkj-A.png)
 
-#### What is Anova? when to use Anova?	
+#### What is anova? When to use Anova?	
         Analysis of variance (ANOVA) is a collection of statistical models and their associated estimation procedures 
         (such as the "variation" among and between groups) used to analyze the differences among group means in a sample.
 
@@ -608,7 +608,7 @@ Feel Free to Share the Questions/References Link into your blog.
         one quantitative dependent variable. The independent variable should have at least three levels
          (i.e. at least three different groups or categories)
 
-#### How would you define dimentionality reduction? why we use dimentionality reduction?	
+#### How would you define dimentionality reduction? Why we use dimentionality reduction?	
         Dimensionality reduction or dimension reduction is the process of reducing the number of random variables 
         under consideration by obtaining a set of principal variables. Approaches can be divided into feature 
         selection and feature extraction.
@@ -623,8 +623,8 @@ Feel Free to Share the Questions/References Link into your blog.
                         Linear Technique for DR, performs linear mapping of data to lower dimention
                         space in such a way variance is maximized.
                 4) Non Negative Metrics Factorization
-                5) Kernel PCA ( Non linear way of utilization of Kernel Trick)
-                6) Graph Based Kernel PCA ( locally linear embedding, Eigen Embeddings)
+                5) Kernel PCA (Non linear way of utilization of Kernel Trick)
+                6) Graph Based Kernel PCA (locally linear embedding, Eigen Embeddings)
 
                 7) Linear Discrimenant Analysis
                         A method used in statistics, pattern recognition and machine learning to find a 
@@ -639,7 +639,7 @@ Feel Free to Share the Questions/References Link into your blog.
                         is locally constant or approximately locally constant.
                 10) Autoencoders (can learn from Non Linear dimention reduction function)
 
-#### What is Principle componenet analysis? how does PCA work in Dimentonality reduction?
+#### What is principle componenet analysis? How does PCA work in Dimentonality reduction?
 
         The main linear technique for dimensionality reduction, principal component analysis, performs
          a linear mapping of the data to a lower-dimensional space in such a way that the variance of 
@@ -652,14 +652,14 @@ Feel Free to Share the Questions/References Link into your blog.
          a few eigenvectors
 ![](https://kindsonthegenius.com/blog/wp-content/uploads/2018/11/Principal-2BComponents-2BAnalysis-2BTutorial.jpg)
 
-#### What is Maximum Likelihood estimation?
+#### What is maximum likelihood estimation?
         Maximum likelihood estimation is a method that determines values for the parameters of a model. 
         The parameter values are found such that they maximise the likelihood that the process described by the model
         produced the data that were actually observed.
 
 #### What is Naive Bayes? How does it works?
         A method of estimating the parameters of a probability distribution by maximizing a likelihood function, 
-        so that under the assumed statistical model the observed data is most probable
+        so that under the assumed statistical model the observed data is most probable.
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/52bd0ca5938da89d7f9bf388dc7edcbd546c118e)
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/d0d9f596ba491384422716b01dbe74472060d0d7)
@@ -668,7 +668,7 @@ Feel Free to Share the Questions/References Link into your blog.
 #### What is Bayes Theorm?
         The probability of an event, based on prior knowledge of conditions that might be related to the event.
 
-#### What is Probability?
+#### What is probability?
         Probability is a number between 0 and 1, where, roughly speaking, 0 indicates impossibility and 1 indicates certainty.
         The higher the probability of an event, the more likely it is that the event will occur. 
         Example:
@@ -685,19 +685,19 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://image.slidesharecdn.com/probabilitydistribution-150117052614-conversion-gate02/95/probabilitydistribution-14-638.jpg?cb=1421494048)
 
 #### What is Marginal Probability?
-        Probability of event X=A given variable Y. Single Random event probability 
-        P(A) , A single probability of an independent event.
+        Probability of event X = A given variable Y. Single random event probability 
+        P(A), A single probability of an independent event.
 
-#### What is Conditional Probability? what is distributive Probability?
+#### What is Conditional Probability? What is distributive Probability?
         Probability of event A given event B is termed as Conditional Probability.
 
 #### What is Z score?
         Z score (also called the standard score) represents the number of standard deviations with which the 
         value of an observation point or data differ than the mean value of what is observed
 
-#### What is KNN how does it works? what is neigbouring criteria? How you can change it ?
-        KNN is dependent on distancing estimation from the points of a Class to respectable points in class, thus acting as a Vote Based Neigbouring
-        Classifier, where you conclude the outcome of your input to be predicted by measuring which points come close to it.
+#### What is KNN how does it works? What is neigbouring criteria? How you can change it ?
+        KNN is dependent on distancing estimation from the points of a class to respectable points in class, thus acting as a vote based neigbouring
+        classifier, where you conclude the outcome of your input to be predicted by measuring which points come close to it.
         You can have as much as neigbours you want, the more you specify neigbours the more classes it will use to evaluate the final outcome.
 
         Working is quite similar than a distancing algorithm, although you draw the point and calculate all the neigbouring by looking which
@@ -705,41 +705,41 @@ Feel Free to Share the Questions/References Link into your blog.
         Hence the vote would be class A.
 
 
-#### Which one would you prefer low FN or FP's based on Fraudial Transaction?
-        Recommended is low FN's, the reason is because if you consider Fraudly Transaction being occured and counting it as not being occured 
-        This has huge impact on the Business model.
+#### Which one would you prefer low FN or FP's based on Fraud Transaction?
+        Recommended is low FN's, the reason is because if you consider Fraud Transaction being occured and counting it as not being occured 
+        This has huge impact on the business model.
 
-#### Differentiate between KNN and KMean?
-        KMean: Unsupervised, Random points drawn, each uses distance based averages for prediction.
-        KNN: Supervised, neigbouring, C values , Voting 
+#### Differentiate between KNN and KMeans?
+        KMeans: unsupervised, random points drawn, each uses distance based averages for prediction.
+        KNN: supervised, neigbouring, C values, Voting 
 ![](https://qph.fs.quoracdn.net/main-qimg-e50401a4bdaf033ef6b451ea72334f8b)
 
-#### What is Attention ? Give Example ?
+#### What is attention? Give example?
         A neural attention mechanism equips a neural network with the ability to focus on a subset of its inputs (or features).
-        1) Hard Attention (Image Cropping)
-        2) Soft Attention (Highlight attentional area keeping the image size same)
+        1) Hard Attention (image cropping)
+        2) Soft Attention (highlight attentional area keeping the image size same)
 ![](https://distill.pub/2016/augmented-rnns/assets/show-attend-tell.png)
 
-#### What are AutoEncoders? and what are transformers?
+#### What are Autoencoders? And what are transformers?
 
         Autoencoders take input data, compress it into a code, then try to recreate the input data from that summarized code. It’s like starting with Moby Dick, creating a SparkNotes version and then trying to rewrite the original story using only SparkNotes for reference. While a neat deep learning trick, there are fewer real-world cases where a simple autocoder is useful. But add a layer of complexity and the possibilities multiply: by using both noisy and clean versions of an image during training, autoencoders can remove noise from visual data like images, video or medical scans to improve picture quality.
 
-#### What is Image Captioning?	
-        Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to
+#### What is image captioning?	
+        Image captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to
         generate the captions
 ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2018/03/example.png)
 
-#### Give some example of Text summarization.	
+#### Give some example of text summarization.	
         Summarization is the task of condensing a piece of text to a shorter version, reducing the size of the initial text while preserving the meaning.
         Some examples are :
                 1) Essay Summarization
                 2) Document Summarization
-                etc
+                etc.
 
 #### Define Style Transfer?
 
 #### Define Image Segmentation and Pose Analysis?	
-        Image Segmentation : In digital image processing and computer vision, image segmentation is the process of partitioning a digital image into 
+        Image Segmentation : in digital image processing and computer vision, image segmentation is the process of partitioning a digital image into 
         multiple segments (sets of pixels, also known as image objects). The goal of segmentation is to simplify and/or change the representation of 
         an image into something that is more meaningful and easier to analyze.
 
@@ -759,24 +759,24 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://slideplayer.com/slide/14913960/91/images/17/Imperative+vs+Symbolic+Programming.jpg)
 
 
-#### Define Text Classification, Give some usecase examples?
+#### Define text classification, give some use case examples?
         Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups. 
         By using Natural Language Processing (NLP), text classifiers can automatically analyze text and then assign a set of pre-defined
         tags or categories based on its content.
-        UseCases:
+        Use Cases:
                 1) Document Classification
                 2) Document Categorization
                 3) Point of Interest in Document
                 4) OCR
-                etc
+                etc.
 ![](https://www.researchgate.net/profile/Raghava_Rao_Mukkamala/publication/321892732/figure/fig3/AS:574016848764930@1513867689381/Text-Classification-Architecture.png)
 
-#### which algorithms to use for Missing Data?
+#### Which algorithms to use for missing data?
 ![](https://www.researchgate.net/publication/330704615/figure/fig2/AS:720385997815812@1548764814471/Machine-learning-with-missing-data-Conventional-single-imputation-methods-for-handling.ppm)
 
-#### How would you define GAN(Generative Adversarial Networks) ?
+#### How would you define GAN (Generative Adversarial Networks) ?
 
-#### What are Gausian Processes?
+#### What are Gaussian Processes?
 
 #### What is Graph Neural Network?
 
@@ -785,7 +785,7 @@ Feel Free to Share the Questions/References Link into your blog.
 #### What is Language Modelling(LM), give examples?
 
 
-#### Define Named Entity recognition? Give some usecases where it can come in handy?
+#### Define named entity recognition? Give some usecases where it can come in handy?
 
 
 
@@ -830,6 +830,6 @@ Topics
 
 ###Software interface: 
 Library calls, REST APIs, data collection endpoints, database queries, etc.
-User interface: Capturing user inputs & application events, displaying results & visualization, etc.
-Scalability: Map-reduce, distributed processing, etc.
-Deployment: Cloud hosting, containers & instances, microservices, etc.
+User interface: capturing user inputs & application events, displaying results & visualization, etc.
+Scalability: map-reduce, distributed processing, etc.
+Deployment: cloud hosting, containers & instances, microservices, etc.
