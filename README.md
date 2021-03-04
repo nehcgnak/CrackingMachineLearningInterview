@@ -426,9 +426,9 @@ Feel Free to Share the Questions/References Link into your blog.
         A techniques which does regression analysis along with moving averages which fits time series analysis and gets trend analysis with 
         acceptable scores.
 
-#### How would you define Bagging and Boosting? How would XGBoost differ from RandomForest?
+#### How would you define Bagging and Boosting? How would XGBoost differ from Random Forest?
         Bagging: a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. 
-                Example: Random Forest (uses random Sampling subsets)
+                Example: Random Forest (uses random sampling subsets)
         Boosting: An iterative technique which adjusts the weight of an observation based on the last classification
                 Example: AdaBoost, XGboost (using gradient descent as main method)
 
@@ -439,9 +439,9 @@ Feel Free to Share the Questions/References Link into your blog.
             Q2: 25 - 50%
             Q3: 50 - 75%
             Q4: 75 - 100%
-        IQR: - Q3 - Q1
+            IQR: Q3 - Q1
 #### What is SMOTE?	
-        Synthetic Minority Over-sampling TEchnique also known as SMOTE. 
+        Synthetic Minority over-sampling technique also known as SMOTE. 
         A very popular oversampling method that was proposed to improve random oversampling but 
         its behavior on high-dimensional data has not been thoroughly investigated. 
         KNN algorithm gets benefits from SMOTE.
@@ -449,37 +449,37 @@ Feel Free to Share the Questions/References Link into your blog.
         Underfitting
             1) Increase complexity of model
             2) Increasing training time
-            3) decrease learning rate
+            3) Decrease learning rate
         Overfitting:
-            1) Cross Validation
-            2) Early Stops
-            3) increased learning rates(hops)
+            1) Cross validation
+            2) Early stops
+            3) Increased learning rates(hops)
             4) Ensembling 
-            5) Bring in More data
-            6) Remove Features
-#### Mention some techniques which are to avoid Overfitting?
-        1) Cross Validation
+            5) Bring in more data
+            6) Remove features
+#### Mention some techniques which are to avoid overfitting?
+        1) Cross validation
         2) Early Stops
-        3) increased learning rates(hops)
+        3) Increased learning rates(hops)
         4) Ensembling 
-        5) Bring in More data
-        6) Remove Features
+        5) Bring in more data
+        6) Remove features
 #### What is a neuron?
         A "neuron" in an artificial neural network is a mathematical approximation of a biological neuron.
         It takes a vector of inputs, performs a transformation on them, and outputs a single scalar value.
-         It can be thought of as a filter. Typically we use nonlinear filters in neural networks.
+        It can be thought of as a filter. Typically we use nonlinear filters in neural networks.
 
 #### What are hidden layers and Input layer?
 ![](https://www.i2tutorials.com/wp-content/uploads/2019/05/Hidden-layrs-1-i2tutorials.jpg)
 
-        1) Input Layer: Initial input for your neural network
+        1) Input Layer: initial input for your neural network
         2) Hidden layers: a hidden layer is located between the input and output of the algorithm, 
         in which the function applies weights to the inputs and directs them through an activation function as the output.
         In short, the hidden layers perform nonlinear transformations of the inputs entered into the network. 
         Hidden layers vary depending on the function of the neural network, and similarly, the layers may vary depending 
         on their associated weights.
 
-#### What are output Layers?
+#### What are output layers?
         Output layer in ANN determines the final layer which is responsible for the final outcome, the outcome totally depends
         on the usecase provided and the function which is being used to scale the values. By default, Linear, Sigmoid and Relu are 
         most common choices.
