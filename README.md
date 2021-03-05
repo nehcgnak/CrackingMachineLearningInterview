@@ -469,10 +469,10 @@ Feel Free to Share the Questions/References Link into your blog.
         It takes a vector of inputs, performs a transformation on them, and outputs a single scalar value.
         It can be thought of as a filter. Typically we use nonlinear filters in neural networks.
 
-#### What are hidden layers and Input layer?
+#### What are hidden layers and input layer?
 ![](https://www.i2tutorials.com/wp-content/uploads/2019/05/Hidden-layrs-1-i2tutorials.jpg)
 
-        1) Input Layer: initial input for your neural network
+        1) Input layer: initial input for your neural network
         2) Hidden layers: a hidden layer is located between the input and output of the algorithm, 
         in which the function applies weights to the inputs and directs them through an activation function as the output.
         In short, the hidden layers perform nonlinear transformations of the inputs entered into the network. 
@@ -495,16 +495,17 @@ Feel Free to Share the Questions/References Link into your blog.
                 Softmax outputs produce a vector that is non-negative and sums to 1. It's useful when you have mutually exclusive categories 
                 ("these images only contain cats or dogs, not both"). You can use softmax if you have 2,3,4,5,... mutually exclusive labels.
 
-            2) Tanh function (has Vanish Garident problem)
+            2) Tanh function (has vanish gradient problem)
                 if the outputs are somehow constrained to lie in [−1, 1], tanh could make sense.
+                
             3) Relu Function
-                ReLU units or similar variants can be helpful when the output is bounded above or below. 
+                RelU units or similar variants can be helpful when the output is bounded above or below. 
                 If the output is only restricted to be non-negative, it would make sense to use a ReLU 
-                activation as the output function. (0 to Max(x))
+                activation as the output function. (0 to max(x))
 
             4) Leaky Relu Function (to fix the dying relu problem in the Relu function within hidden layers)
 
-#### What is Convolotional Neural Network?
+#### What is Convolutional Neural Network?
         Convolutional-neural-network is a subclass of neural-networks which have at least one convolution layer. 
         They are great for capturing local information (e.g. neighbor pixels in an image or surrounding words in a text) 
         as well as reducing the complexity of the model (faster training, needs fewer samples, reduces the chance of overfitting).
@@ -523,7 +524,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture.
         Unlike standard feedforward neural networks, LSTM has feedback connections. It can not only process single
         data points (such as images), but also entire sequences of data (such as speech or video). 
-        For example, LSTM is applicable to tasks such as unsegmented, connected handwriting recognition, Anomly detection in network
+        For example, LSTM is applicable to tasks such as unsegmented, connected handwriting recognition, anomaly detection in network
         traffic or IDS.
 ![](https://miro.medium.com/max/1400/1*qn_quuUSYzozyH3CheoQsA.png)
 
@@ -543,12 +544,12 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_4/Pooling_Simple_max.png)
 
 #### What is MaxPooling Layer? How does it work?
-        Max polling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
+        Max pooling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
 ![](https://computersciencewiki.org/images/8/8a/MaxpoolSample2.png)
 #### What is Kernel or Filter?
         Kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM)
         Kernel functions have been introduced for sequence data, graphs, text, images, as well as vectors.
-        A Kernel is used to solve Non- Linear problem by Linear Classifiers in a way that its useable.
+        A kernel is used to solve non-linear problem by linear classifiers in a way that its useable.
 ![](https://2.bp.blogspot.com/-iNPVcxMHMNg/WdDnyLPY9QI/AAAAAAAAAZU/hgwQOQ1liyE4nhKVYzOyuUprjHNEx7aygCLcBGAs/s1600/kernel.png)
 
 
