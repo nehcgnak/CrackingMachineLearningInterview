@@ -560,7 +560,7 @@ Feel Free to Share the Questions/References Link into your blog.
         is more meaningful and easier to analyze.
 
 #### What is Pose Estimation?	
-        Detection of poster from an Image is represented as Post Estimation.
+        Detection of poster from an image is represented as post sstimation.
 
 #### What is forward propagation?	
         The input data is fed in the forward direction through the network. Each hidden layer accepts the input data,
@@ -640,7 +640,7 @@ Feel Free to Share the Questions/References Link into your blog.
                         is locally constant or approximately locally constant.
                 10) Autoencoders (can learn from Non Linear dimention reduction function)
 
-#### What is principle componenet analysis? How does PCA work in Dimentonality reduction?
+#### What is principle component analysis? How does PCA work in Dimentonality reduction?
 
         The main linear technique for dimensionality reduction, principal component analysis, performs
          a linear mapping of the data to a lower-dimensional space in such a way that the variance of 
