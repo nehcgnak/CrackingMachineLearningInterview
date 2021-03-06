@@ -71,8 +71,8 @@ Feel Free to Share the Questions/References Link into your blog.
         unobserved random variable that adds "noise" to the linear relationship between the dependent variable and regressors. Thus the model takes the 
         form Y = B0 + B1X1 + B2X2 + ..... + BNXN
         This also emplies : Y(i) = X(i) ^ T + B(i)
-        Where T : denotes Transpose
-        X(i) : denotes input at the I'th record in form of vector
+        Where T : denotes transpose
+        X(i) : denotes input at the ith record in form of vector
         B(i) : denotes vector B which is bias vector.
 
 #### Use Cases of Regressions:
@@ -84,7 +84,7 @@ Feel Free to Share the Questions/References Link into your blog.
 #### What is Logistic Regression? How does it work?
         Logistic regression is a statistical technique used to predict probability of binary response based on one or more independent variables. 
         It means that, given a certain factors, logistic regression is used to predict an outcome which has two values such as 0 or 1, pass or fail,
-        yes or no etc
+        yes or no, etc.
         Logistic Regression is used when the dependent variable (target) is categorical.
         For example,
             To predict whether an email is spam (1) or (0)
@@ -125,7 +125,6 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://i.ytimg.com/vi/OmTu0fqUsQk/maxresdefault.jpg)
 #### Types of SVM kernels
         Think of kernels as definned filters each for their own specific usecases.
-
         1) Polynomial Kernels (used for image processing)
         2) Gaussian Kernel (when there is no prior knowledge for data)
         3) Gaussian Radial Basis Function(same as 2)
@@ -147,8 +146,7 @@ Feel Free to Share the Questions/References Link into your blog.
         A classifier can be evaluated through multiple case, having the base case around its confusion metrics and its attributes which are TP, TN , FP and FN. Along with the accuracy metrics which can be derived alongside precision, recall scores.
 
 #### What is classification?
-        Classification is defined as categorizing classes or entities based on the specified categories either that category exists or not in the respectable data. The concept is quite common for image based classification or data based classification. The answer in form of Yes or No;
-        alongside answers in form of types of objects/classes.
+        Classification is defined as categorizing classes or entities based on the specified categories either that category exists or not in the respectable data. The concept is quite common for image based classification or data based classification. The answer in form of Yes or No alongside answers in form of types of objects/classes.
 
 #### How would you differentiate between Multilabel and MultiClass classification?
         A multiclass defines as a classification outcome which can be of multiple classes either A or B or C but not two or more than one.
@@ -158,9 +156,9 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What is Confusion Matrix?
         A confusion matrix, also known as an error matrix, is a specific table layout that allows visualization of
-         the performance of an algorithm, typically a supervised learning one (in unsupervised learning it is
-          usually called a matching matrix). Each row of the matrix represents the instances in a predicted class
-           while each column represents the instances in an actual class (or vice versa).
+        the performance of an algorithm, typically a supervised learning one (in unsupervised learning it is
+        usually called a matching matrix). Each row of the matrix represents the instances in a predicted class
+        while each column represents the instances in an actual class (or vice versa).
         The name stems from the fact that it makes it easy to see if the system is confusing two classes 
         (i.e. commonly mislabeling one as another).
 ![](https://www.unite.ai/wp-content/uploads/2019/12/Preventive_Medicine-e1576294312614.png)
@@ -172,7 +170,6 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### Which algorithms are high and low variance algorithms?	
         Variance is the amount that the estimate of the target function will change given different training data
-
         1) High variance algorithms are Decision Trees, K Nearest Neigbours and SVMs
         2) Low variance algorithms are Linear Regression, Logistic Regression and LDA's
 
@@ -182,7 +179,6 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What are root case of prediction bias?
         Possible root causes of prediction bias are:
-
         1) Incomplete feature set
         2) Noisy data set
         3) Buggy pipeline
@@ -295,7 +291,7 @@ Feel Free to Share the Questions/References Link into your blog.
         In general:
             Event(X | Y)  -> C(Total Event| Success Event) * [(Prob of X) ^ (Success Event X)] * [(1 - Prob of X) ^ (1 - Success Event X)]
 
-#### What is Entropy? And Information Gain? There difference ?
+#### What is Entropy? And Information Gain? There difference?
         Entropy: randomness of information being processed.
 
         Information Gain multiplies the probability of the class times the log (base=2) of that class probability. Information Gain favors smaller partitions with many distinct values. Ultimately, you have to experiment with your data and the splitting criterion.
@@ -348,7 +344,7 @@ Feel Free to Share the Questions/References Link into your blog.
         The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall).
         Also known as Dice Similarity Coefficent. 
 
-        David (Scientist Statistician): The widespread use of the F1 score since it gives equal importance to precision and recall. In practice, different types of mis-classifications incur different costs. In other words, the relative importance of precision and recall is an aspect of the problem
+        David (Scientific statistician): The widespread use of the F1 score since it gives equal importance to precision and recall. In practice, different types of mis-classifications incur different costs. In other words, the relative importance of precision and recall is an aspect of the problem
 
 #### What is difference between perceptron and SVM?
         The major practical difference between a (kernel) perceptron and SVM is that perceptrons can be trained online (i.e. their weights can be updated
@@ -373,7 +369,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What is Regularization?
         Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting.
-        Add Lambda * Biasness value at the end.
+        Add Lambda * Bias value at the end.
 #### Difference between L1 and L2 Regularizations?
         1) L1 Regularization (Lasso Regression)
             (Least Absolute Shrinkage and Selection Operator) adds "absolute value of magnitude" of coefficient as penalty term to the loss function.
@@ -406,7 +402,7 @@ Feel Free to Share the Questions/References Link into your blog.
         E.G:
             Class A has 1 million Record
             Class B has 1000 Record
-        This is imbalanced data set and Class B is underbalanced class.
+        This is an imbalanced data set and Class B is a underbalanced class.
 
 #### How would you resolve the issue of imbalanced data set?
         The techniques such as 
@@ -459,7 +455,7 @@ Feel Free to Share the Questions/References Link into your blog.
             6) Remove features
 #### Mention some techniques which are to avoid overfitting?
         1) Cross validation
-        2) Early Stops
+        2) Early stops
         3) Increased learning rates(hops)
         4) Ensembling 
         5) Bring in more data
@@ -544,10 +540,10 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_4/Pooling_Simple_max.png)
 
 #### What is Max Pooling Layer? How does it work?
-        Max pooling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
+        Max pooling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or the largest value in each patch of each feature map in a way.
 ![](https://computersciencewiki.org/images/8/8a/MaxpoolSample2.png)
 #### What is Kernel or Filter?
-        Kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM)
+        Kernel methods are a class of algorithms for pattern analysis, whose best known member is the support vector machine (SVM).
         Kernel functions have been introduced for sequence data, graphs, text, images, as well as vectors.
         A kernel is used to solve non-linear problem by linear classifiers in a way that its useable.
 ![](https://2.bp.blogspot.com/-iNPVcxMHMNg/WdDnyLPY9QI/AAAAAAAAAZU/hgwQOQ1liyE4nhKVYzOyuUprjHNEx7aygCLcBGAs/s1600/kernel.png)
@@ -607,7 +603,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
         Use a one-way ANOVA when you have collected data about one categorical independent variable and 
         one quantitative dependent variable. The independent variable should have at least three levels
-         (i.e. at least three different groups or categories)
+        (i.e. at least three different groups or categories)
 
 #### How would you define dimentionality reduction? Why we use dimentionality reduction?	
         Dimensionality reduction or dimension reduction is the process of reducing the number of random variables 
@@ -641,7 +637,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### What is principle component analysis? How does PCA work in Dimentonality reduction?
 
-        The main linear technique for dimensionality reduction, principal component analysis, performs
+         The main linear technique for dimensionality reduction, principal component analysis, performs
          a linear mapping of the data to a lower-dimensional space in such a way that the variance of 
          the data in the low-dimensional representation is maximized. In practice, the covariance (and 
          sometimes the correlation) matrix of the data is constructed and the eigenvectors on this 
@@ -695,13 +691,13 @@ Feel Free to Share the Questions/References Link into your blog.
         Z score (also called the standard score) represents the number of standard deviations with which the 
         value of an observation point or data differ than the mean value of what is observed
 
-#### What is KNN? How does it work? What is neigbouring criteria? How you can change it?
+#### What is KNN? How does it work? What is neigbouring criteria? How can you change it?
         KNN is dependent on distancing estimation from the points of a class to respectable points in class, thus acting as a vote based neigbouring
         classifier, where you conclude the outcome of your input to be predicted by measuring which points come close to it.
         You can have as much as neigbours you want, the more you specify neigbours the more classes it will use to evaluate the final outcome.
 
         Working is quite similar than a distancing algorithm, although you draw the point and calculate all the neigbouring by looking which
-        are close, when you are done with it you go with as votes, E.g Class A were 5 classes and Class B were 2 classes in that neigbour hood.
+        are close, when you are done with it you go with as votes, e.g. Class A were 5 classes and Class B were 2 classes in that neigbourhood.
         Hence the vote would be class A.
 
 
@@ -711,7 +707,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### Differentiate between KNN and KMeans?
         KMeans: unsupervised, random points drawn, each uses distance based averages for prediction.
-        KNN: supervised, neigbouring, C values, Voting 
+        KNN: supervised, neigbouring, c values, voting 
 ![](https://qph.fs.quoracdn.net/main-qimg-e50401a4bdaf033ef6b451ea72334f8b)
 
 #### What is attention? Give example?
@@ -752,7 +748,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Semantic Segmentation is the segmentation of an image based on Type of Objects
 ![](https://miro.medium.com/max/2436/0*QeOs5RvXlkbDkLOy.png)
 #### What is Instance Segmentation?
-        Same as Semantic, although with Objects (with respectable ID's)
+        Same as Semantic, although with objects (with respectable ID's)
 
 #### What is Imperative and Symbolic Programming?
 ![](https://slideplayer.com/slide/14913960/91/images/17/Imperative+vs+Symbolic+Programming.jpg)
@@ -793,7 +789,7 @@ Feel Free to Share the Questions/References Link into your blog.
 ### Computer Science Fundamentals and Programming
 ###### Topics
 
-Data structures: Lists, stacks, queues, strings, hash maps, vectors, matrices, classes & objects, trees, graphs, etc.
+Data structures: lists, stacks, queues, strings, hash maps, vectors, matrices, classes & objects, trees, graphs, etc.
 Algorithms: recursion, searching, sorting, optimization, dynamic programming, etc.
 Computability and complexity: P vs. NP, NP-complete problems, big-O notation, approximate algorithms, etc.
 Computer architecture: Memory, cache, bandwidth, threads & processes, deadlocks, etc.
@@ -813,7 +809,7 @@ Topics
 
 ### Data preprocessing: 
 Munging/wrangling, transforming, aggregating, etc.
-Pattern recognition: Correlations, clusters, trends, outliers & anomalies, etc.
+Pattern recognition: correlations, clusters, trends, outliers & anomalies, etc.
 Dimensionality reduction: Eigenvectors, Principal Component Analysis, etc.
 Prediction: classification, regression, sequence prediction, etc.; suitable error/accuracy metrics.
 Evaluation: training-testing split, sequential vs. randomized cross-validation, etc.
