@@ -246,7 +246,7 @@ Feel Free to Share the Questions/References Link into your blog.
         entropy = 0
         for i in labelCounts:
             probability = float(labelCounts[keys])/number
-            entropy -=probability * log(probability, 2)
+            entropy -= probability * log(probability, 2)
         return entropy
         '''
 #### How does Random Forest works and Decision Trees?
@@ -376,10 +376,10 @@ Feel Free to Share the Questions/References Link into your blog.
         Add Lambda * Biasness value at the end.
 #### Difference between L1 and L2 Regularizations?
         1) L1 Regularization (Lasso Regression)
-            (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient as penalty term to the loss function.
+            (Least Absolute Shrinkage and Selection Operator) adds "absolute value of magnitude" of coefficient as penalty term to the loss function.
 
         2) L2 Regularization (Ridge Regression)
-            (adds “squared magnitude” of coefficient as penalty term to the loss function. Here the highlighted part represents L2 regularization element.)
+            (adds "squared magnitude" of coefficient as penalty term to the loss function. Here the highlighted part represents L2 regularization element.)
 
         The key difference between these techniques is that Lasso shrinks the less important feature’s coefficient to zero thus, removing some feature
         altogether. So, this works well for feature selection in case we have a huge number of features.
@@ -543,7 +543,7 @@ Feel Free to Share the Questions/References Link into your blog.
         This is required to downsize your feature scale (e.g You have detected vertical lines, now remove some of the feature to go in grain).
 ![](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_4/Pooling_Simple_max.png)
 
-#### What is MaxPooling Layer? How does it work?
+#### What is Max Pooling Layer? How does it work?
         Max pooling uses the maximum value found in a considered size metrics. Maximum pooling, or max pooling, is a pooling operation that calculates the maximum, or largest, value in each patch of each feature map.in a way.
 ![](https://computersciencewiki.org/images/8/8a/MaxpoolSample2.png)
 #### What is Kernel or Filter?
@@ -560,7 +560,7 @@ Feel Free to Share the Questions/References Link into your blog.
         is more meaningful and easier to analyze.
 
 #### What is Pose Estimation?	
-        Detection of poster from an image is represented as post sstimation.
+        Detection of poster from an image is represented as pose estimation.
 
 #### What is forward propagation?	
         The input data is fed in the forward direction through the network. Each hidden layer accepts the input data,
@@ -574,9 +574,9 @@ Feel Free to Share the Questions/References Link into your blog.
 ![](https://i.ytimg.com/vi/An5z8lR8asY/maxresdefault.jpg)
 
 #### What are dropout neurons?	
-        The term “dropout” refers to dropping out units (both hidden and visible) in a neural network.
+        The term "dropout" refers to dropping out units (both hidden and visible) in a neural network.
         Simply put, dropout refers to ignoring units (i.e. neurons) during the training phase of certain 
-        set of neurons which is chosen at random. By “ignoring”, I mean these units are not considered during
+        set of neurons which is chosen at random. By "ignoring", I mean these units are not considered during
         a particular forward or backward pass.
         More technically, At each training stage, individual nodes are either dropped out of the net with 
         probability 1-p or kept with probability p, so that a reduced network is left; incoming and 
@@ -593,15 +593,15 @@ Feel Free to Share the Questions/References Link into your blog.
         making the model reliable by increasing its generalization
 
 #### What is correlation? And covariance?
-        “Covariance” indicates the direction of the linear relationship between variables. 
-        “Correlation” on the other hand measures both the strength and direction of the linear relationship between two variables.
+        "Covariance" indicates the direction of the linear relationship between variables. 
+        "Correlation" on the other hand measures both the strength and direction of the linear relationship between two variables.
 
         When comparing data samples from different populations, covariance is used to determine how much two random variables
         vary together, whereas correlation is used to determine when a change in one variable can result in a change in another. 
         Both covariance and correlation measure linear relationships between variables.
 ![](https://miro.medium.com/max/716/1*T52-LSuLQyq-6I2c1lkj-A.png)
 
-#### What is anova? When to use Anova?	
+#### What is ANOVA? When to use ANOVA?	
         Analysis of variance (ANOVA) is a collection of statistical models and their associated estimation procedures 
         (such as the "variation" among and between groups) used to analyze the differences among group means in a sample.
 
@@ -626,7 +626,6 @@ Feel Free to Share the Questions/References Link into your blog.
                 4) Non Negative Metrics Factorization
                 5) Kernel PCA (Non linear way of utilization of Kernel Trick)
                 6) Graph Based Kernel PCA (locally linear embedding, Eigen Embeddings)
-
                 7) Linear Discrimenant Analysis
                         A method used in statistics, pattern recognition and machine learning to find a 
                         linear combination of features that characterizes or separates two or more 
@@ -658,7 +657,7 @@ Feel Free to Share the Questions/References Link into your blog.
         The parameter values are found such that they maximise the likelihood that the process described by the model
         produced the data that were actually observed.
 
-#### What is Naive Bayes? How does it works?
+#### What is Naive Bayes? How does it work?
         A method of estimating the parameters of a probability distribution by maximizing a likelihood function, 
         so that under the assumed statistical model the observed data is most probable.
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/52bd0ca5938da89d7f9bf388dc7edcbd546c118e)
@@ -696,7 +695,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Z score (also called the standard score) represents the number of standard deviations with which the 
         value of an observation point or data differ than the mean value of what is observed
 
-#### What is KNN how does it works? What is neigbouring criteria? How you can change it ?
+#### What is KNN? How does it work? What is neigbouring criteria? How you can change it?
         KNN is dependent on distancing estimation from the points of a class to respectable points in class, thus acting as a vote based neigbouring
         classifier, where you conclude the outcome of your input to be predicted by measuring which points come close to it.
         You can have as much as neigbours you want, the more you specify neigbours the more classes it will use to evaluate the final outcome.
@@ -706,7 +705,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Hence the vote would be class A.
 
 
-#### Which one would you prefer low FN or FP's based on Fraud Transaction?
+#### Which one would you prefer low FN or FP's based on fraud transaction?
         Recommended is low FN's, the reason is because if you consider Fraud Transaction being occured and counting it as not being occured 
         This has huge impact on the business model.
 
@@ -721,7 +720,7 @@ Feel Free to Share the Questions/References Link into your blog.
         2) Soft Attention (highlight attentional area keeping the image size same)
 ![](https://distill.pub/2016/augmented-rnns/assets/show-attend-tell.png)
 
-#### What are Autoencoders? And what are transformers?
+#### What are autoencoders? And what are transformers?
 
         Autoencoders take input data, compress it into a code, then try to recreate the input data from that summarized code. It’s like starting with Moby Dick, creating a SparkNotes version and then trying to rewrite the original story using only SparkNotes for reference. While a neat deep learning trick, there are fewer real-world cases where a simple autocoder is useful. But add a layer of complexity and the possibilities multiply: by using both noisy and clean versions of an image during training, autoencoders can remove noise from visual data like images, video or medical scans to improve picture quality.
 
@@ -732,7 +731,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 #### Give some example of text summarization.	
         Summarization is the task of condensing a piece of text to a shorter version, reducing the size of the initial text while preserving the meaning.
-        Some examples are :
+        Some examples are:
                 1) Essay Summarization
                 2) Document Summarization
                 etc.
@@ -740,10 +739,9 @@ Feel Free to Share the Questions/References Link into your blog.
 #### Define Style Transfer?
 
 #### Define Image Segmentation and Pose Analysis?	
-        Image Segmentation : in digital image processing and computer vision, image segmentation is the process of partitioning a digital image into 
+        Image Segmentation: in digital image processing and computer vision, image segmentation is the process of partitioning a digital image into 
         multiple segments (sets of pixels, also known as image objects). The goal of segmentation is to simplify and/or change the representation of 
         an image into something that is more meaningful and easier to analyze.
-
         Pose Analysis:
                 The process of determining the location and the orientation of a Human Entity (pose).
 
@@ -751,7 +749,7 @@ Feel Free to Share the Questions/References Link into your blog.
 
 
 #### Define Semantic Segmentation?
-        Semantic Segmentation is the Segmentation of an image based on Type of Objects
+        Semantic Segmentation is the segmentation of an image based on Type of Objects
 ![](https://miro.medium.com/max/2436/0*QeOs5RvXlkbDkLOy.png)
 #### What is Instance Segmentation?
         Same as Semantic, although with Objects (with respectable ID's)
@@ -764,7 +762,7 @@ Feel Free to Share the Questions/References Link into your blog.
         Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups. 
         By using Natural Language Processing (NLP), text classifiers can automatically analyze text and then assign a set of pre-defined
         tags or categories based on its content.
-        Use Cases:
+        Use cases:
                 1) Document Classification
                 2) Document Categorization
                 3) Point of Interest in Document
@@ -796,7 +794,7 @@ Feel Free to Share the Questions/References Link into your blog.
 ###### Topics
 
 Data structures: Lists, stacks, queues, strings, hash maps, vectors, matrices, classes & objects, trees, graphs, etc.
-Algorithms: Recursion, searching, sorting, optimization, dynamic programming, etc.
+Algorithms: recursion, searching, sorting, optimization, dynamic programming, etc.
 Computability and complexity: P vs. NP, NP-complete problems, big-O notation, approximate algorithms, etc.
 Computer architecture: Memory, cache, bandwidth, threads & processes, deadlocks, etc.
 Probability and Statistics
@@ -806,8 +804,8 @@ Topics
 
 Conditional probability, Bayes rule, likelihood, independence, etc.
 Probabilistic models: Bayes Nets, Markov Decision Processes, Hidden Markov Models, etc.
-Statistical measures: Mean, median, mode, variance, population parameters vs. sample statistics etc.
-Proximity and error metrics: Cosine similarity, mean-squared error, Manhattan and Euclidean distance, log-loss, etc.
+Statistical measures: mean, median, mode, variance, population parameters vs. sample statistics etc.
+Proximity and error metrics: cosine similarity, mean-squared error, Manhattan and Euclidean distance, log-loss, etc.
 Distributions and random sampling: Uniform, normal, binomial, Poisson, etc.
 Analysis methods: ANOVA, hypothesis testing, factor analysis, etc.
 Data Modeling and Evaluation
@@ -817,15 +815,15 @@ Topics
 Munging/wrangling, transforming, aggregating, etc.
 Pattern recognition: Correlations, clusters, trends, outliers & anomalies, etc.
 Dimensionality reduction: Eigenvectors, Principal Component Analysis, etc.
-Prediction: Classification, regression, sequence prediction, etc.; suitable error/accuracy metrics.
-Evaluation: Training-testing split, sequential vs. randomized cross-validation, etc.
+Prediction: classification, regression, sequence prediction, etc.; suitable error/accuracy metrics.
+Evaluation: training-testing split, sequential vs. randomized cross-validation, etc.
 Applying Machine Learning Algorithms and Libraries
 Topics
 
 ###Models: 
 Parametric vs. nonparametric, decision tree, nearest neighbor, neural net, support vector machine, ensemble of multiple models, etc.
 Learning procedure: Linear regression, gradient descent, genetic algorithms, bagging, boosting, and other model-specific methods; regularization, hyperparameter tuning, etc.
-Tradeoffs and gotchas: Relative advantages and disadvantages, bias and variance, overfitting and underfitting, vanishing/exploding gradients, missing data, data leakage, etc.
+Tradeoffs and gotchas: relative advantages and disadvantages, bias and variance, overfitting and underfitting, vanishing/exploding gradients, missing data, data leakage, etc.
 Software Engineering and System Design
 Topics
 
